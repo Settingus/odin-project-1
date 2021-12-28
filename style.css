@@ -1,0 +1,34 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.header {
+    background-color: #1f2937;
+  
+}
+
+#works {
+    background-color: #fff;
+}
+
+#about {
+    background-color: #e5e7eb;
+    height: 50vh;
+}
+
+#contact {
+    background-color: #fff;
+    height: 50vh;
+}
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    height: 5vh;
+}
