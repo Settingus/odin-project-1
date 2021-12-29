@@ -67,7 +67,7 @@ ul {
 }
 
 .hero img {
-    
+    border-radius: 50px;
     height: 100%;
     width: 100%;
     background-color: darkgoldenrod;
@@ -75,7 +75,7 @@ ul {
 
 .welcome {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-content: center;
 }
 
@@ -94,7 +94,7 @@ ul {
 
 
 button {
-    background-color: blue;
+    background-color: #3882f6;
     color: white;
     border: none;
     border-radius: 10px;
@@ -104,34 +104,49 @@ button {
 }
 
 /* styling for the info section*/
-#info {
+.info {
+    border: 2px solid red;
+}
+
+
+.pic-container {
+    border: 2px solid red;
+    margin: 0 200px;
     display: flex;
     flex-direction: column;
-    background-color: #fff;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+
 }
+
+
+.pic-container h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    
+}
+
 
 .pics-box {
-    width: 500px;
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: baseline;
-    flex:1 1 auto;
-
+    margin: 0 3px;
 }
 
+
 .pics-box img {
-    height: 100px;
-    width: 100px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    height: 5rem;
+    width: 5rem;
+    
 }
 
 
 /* styling for the quote section*/
-#about {
+#quote {
     background-color: #e5e7eb;
-    height: 100vh;
+    color: #1f2937;
 }
 
 
