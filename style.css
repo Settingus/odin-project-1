@@ -1,31 +1,158 @@
 html {
     box-sizing: border-box;
+    
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+    box-sizing: inherit; /*
+    border: 2px solid red; */
 }
 
-.header {
+/* styling for the header section*/
+.intro {
     background-color: #1f2937;
-  
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    
 }
 
-#works {
+.header { 
+    display: flex; 
+    position: absolute;
+    width: 70%
+}
+
+
+.logo {    
+    color: white;
+    margin: 0 0 0 0;
+    align-self: center;
+}
+span {
+    color: chartreuse;
+}
+
+nav {
+    margin: 0 0 0 auto;
+}
+
+ul > li > a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+ul > li {
+    margin: 5px;
+    
+}
+
+
+ul {
+    
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.bodi {
+    
+    width: 70%;
+    display: flex;
+    margin: 150px 0;
+}
+
+.hero img {
+    
+    height: 100%;
+    width: 100%;
+    background-color: darkgoldenrod;
+}
+
+.welcome {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.welcome h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    text-align: left;
+    margin: 0;
+}
+.welcome p {
+    color: #e5e7eb;
+    text-align: left;
+    margin: 3px;
+}
+
+
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    margin-top: 2px;
+}
+
+/* styling for the info section*/
+#info {
+    display: flex;
+    flex-direction: column;
     background-color: #fff;
+    justify-content: center;
+    align-items: center;
 }
 
+.pics-box {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    flex:1 1 auto;
+
+}
+
+.pics-box img {
+    height: 100px;
+    width: 100px;
+}
+
+
+/* styling for the quote section*/
 #about {
     background-color: #e5e7eb;
-    height: 50vh;
+    height: 100vh;
 }
 
-#contact {
+
+/* styling for the contact section*/
+.contact-me {
+    display: flex;
     background-color: #fff;
-    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
+
+.contact-me div {
+    display: flex;
+}
+.contact-me img {
+    height: auto;
+    width: 50px;
+}
+
 
 footer {
     background-color: #1f2937;
